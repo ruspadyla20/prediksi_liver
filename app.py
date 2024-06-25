@@ -22,7 +22,7 @@ def user_input_features():
     totalpro = st.sidebar.number_input("Total Proteins", 0.0, 10.0, 7.0)
     albumin = st.sidebar.number_input("Albumin", 0.0, 6.0, 3.0)
     agr = st.sidebar.number_input("Albumin dan Globulin Ratio", 0.0, 3.0, 1.0)
-    
+
     data = {
         'Age': age,
         'Gender': gender,
